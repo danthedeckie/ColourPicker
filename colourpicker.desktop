@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ColourPicker
+GenericName=Colour Picker
+Comment=Simple colour picker application
+Exec=colourpicker
+Icon=select_color
+Terminal=false
+Type=Application
+Categories=Graphics;
