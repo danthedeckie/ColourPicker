@@ -1,0 +1,9 @@
+This simply uses the default GTK colour picker (which is probably the best colour picker around, though less flashy than OS X's).
+If you find yourself opening Gimp or another image editor just to pick a colour for a design or whatever, this is perfect for you.
+
+Build like so:
+$ make
+$ sudo make install
+
+Then run from the commandline by typing:
+$ colourpicker
