@@ -18,10 +18,10 @@ int main (int argc, char *argv[])
 	
 	gtk_window_set_title(GTK_WINDOW(window), "ColourPicker");
 	gtk_container_border_width(GTK_CONTAINER(window), 10);
-	gtk_window_set_icon_name(GTK_WINDOW(window), GTK_STOCK_SELECT_COLOR);
+	gtk_window_set_icon_from_file(GTK_WINDOW(window), "/usr/share/icons/colourpicker.png", NULL);
 	
 	picker = gtk_color_selection_new();
-	gtk_container_add (GTK_CONTAINER (window), picker);
+	gtk_container_add(GTK_CONTAINER (window), picker);
 	
 	gtk_widget_show_all(window);
 	gtk_main();
