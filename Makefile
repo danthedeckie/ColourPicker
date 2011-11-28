@@ -9,7 +9,8 @@ $(TARGET):  colourpicker.c colourpicker.h
 	gcc -o $(TARGET) colourpicker.c $(WFLAGS) $(GTK)
 
 install: all
-	cp $(TARGET) /usr/local/bin/
+	sudo cp $(TARGET) /usr/local/bin/
+	sudo cp colourpicker.desktop /usr/share/applications/
 
 clean:
 	rm -f $(TARGET)
