@@ -9,7 +9,7 @@ $(TARGET):  colourpicker.c colourpicker.h
 	gcc -o $(TARGET) colourpicker.c $(WFLAGS) $(GTK)
 
 install: all
-	cp ColourPicker /usr/local/bin/
+	cp $(TARGET) /usr/local/bin/
 
 clean:
 	rm -f $(TARGET)
