@@ -1,6 +1,6 @@
 TARGET=colourpicker
 
-CFLAGS=-Wall -pedantic -Wmissing-prototypes
+CFLAGS=-Wall -pedantic -Wmissing-prototypes -Os
 GTK=$(shell pkg-config --cflags --libs gtk+-2.0)
 
 all: $(TARGET)
